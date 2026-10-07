@@ -1,0 +1,75 @@
+# Ten Impossible Problems · สิบโจทย์ที่ว่าทำไม่ได้
+
+> Ten problems that looked impossible, and what NaN Peacock built for each: learning apps, games, drawn maps, Thai search, open-weight models, maths of Thai design.
+
+Made by hongdam.net, Chiang Rai. English: https://nanobotco.github.io/impossible/ · Thai: https://nanobotco.github.io/impossible/th/
+
+## 1. Thai, Drawn
+https://motdang.net/sites/thai-drawn/
+
+Problem: Learn to read Thai — 44 consonants, five tones, and a tone rule that turns on consonant class, vowel length and the final sound — from study material scattered across ten sources in her projects.
+
+Built: One app in one drawn style. A letter answered right twice moves its picture into the letter village. A tone machine, checked by 25 tests. 467 words in 24 decks, 1,117 street signs from Chiang Mai and Chiang Rai, 44 animated paper-cut letter pictures.
+
+## 2. Rider
+https://motdang.net/sites/rider/
+
+Problem: A daily delivery puzzle needs a fair target score every day, on Chiang Mai's one-way roads, with shops that open only at their posted hours.
+
+Built: Each day the game tries every order of stops and sets par in under 5 ms. Riding to the nearest stop lands about 87% of par, so three stars take planning. After each leg it shows the better next stop and the baht given up. One-way moat roads, the evening walking streets and this hour's rain change the routes; 234 legend cards wait along them.
+
+## 3. Kranok, Drawn
+https://motdang.net/sites/kranok/
+
+Problem: Write the Thai flame motif as maths. It is taught by hand, stroke by stroke; no published formula for its curl turned up.
+
+Built: The flame comes from one bending graph: curvature along the line, a log-spiral curl, a flick at the tip. The page nests it, sorts friezes into their seven symmetry groups, and lets readers draw their own. The research set two common readings straight: กนก alone means gold, and the pattern word is กระหนก.
+
+## 4. Warp and Weft
+https://nanobotco.github.io/warp-and-weft/
+
+Problem: Read a Khmer ikat shawl from one phone photo. A vision model called its animals elephants.
+
+Built: Checked against rendered Khmer script, the gold word matches គោ, cow. The site redraws the shawl and turns weaving into toys: a loom, a draft from threading, tie-up and treadling, ikat in seven steps, the gcd rule for satin, the ~900 m of silk in one cocoon. In English, Thai and Khmer.
+
+## 5. Telling Time in Thai
+https://nanobotco.github.io/thai-time/
+
+Problem: Rebuild Lanna time: a day of 16 watches, 90 minutes each, and a 60-day cycle of named days. An earlier clock project dropped the day cycle for want of a fixed date to count from.
+
+Built: The anchor came from the 2022 RMUTL Lanna calendar — 1 January 2022 is กาบยี — and its arithmetic matches the calendar's April and December rows. The Royal Gazette page that set the six-hour clock was read from the original: dated 1900, where English Wikipedia says 1901. A coconut water clock sinks on Torricelli's law.
+
+## 6. The North, Doodled
+https://motdang.net/sites/doodle-north/
+
+Problem: Hand-draw a map of northern Thailand at every zoom, down to the soi. No hand can redraw a region street by street.
+
+Built: An engine reads a 244 MB open map archive tile by tile in the reader's browser and draws it as a doodle: washes without seams at the tile edges, small trees in the woods, names in one language at a time. 84,147 place pages on motdang.net open on a drawn map.
+
+## 7. Your own builder
+https://hongdam.net/own
+
+Problem: Get open-weight models, cheap enough for a Thai small business, to write pages without inventing facts. Every model tested gave the same hospital a different phone number.
+
+Built: One instruction file, tested on seven models: 65% of checks passed with no file, 99.4% with it in English, 96.8% in Thai. With it, an open-weights agent wrote and published Golden Triangle, nine pages in Thai and English, from one brief in 10 minutes 21 seconds.
+
+## 8. nitpick
+https://nanobotco.github.io/nitpick/
+
+Problem: Read every shop sign from a 360° camera on a moving scooter. Each frame is 7680 × 3840, the Mac's Thai text reader works only at full scale, and sending whole frames to a model burns through the budget.
+
+Built: The Mac reads every sign first and matches it to known places; the model sees only the crops it could not place, packed onto sheets. On the same 12 frames: 33 places found against 34 the old way, 54k tokens of context re-read per frame against 241k, 9 turns against 138.
+
+## 9. motdang.net/find
+https://motdang.net/find
+
+Problem: Search Thai, a language written without spaces. The standard database search treats Thai tone marks as word breaks, so ก matched inside ก๋วยเตี๋ยว.
+
+Built: One search box over 113,567 pages of her sites: Thai split by dictionary when indexing and when searching, a boolean door and a lucky door, 40–100 ms at the edge, and a meaning re-rank for what the words miss. On a public test set of spoken requests, the unspaced Thai it reads rose from 17% to 66%.
+
+## 10. Wave It at Home
+https://motdang.net/sites/wave-at-home/
+
+Problem: Thai 7-Eleven meals carry a button code, กด 5, for the store's commercial oven. No official table turning a code into minutes on a home microwave turned up.
+
+Built: From the pack labels: the store ovens are named at 1,800 W and 1,300 W, and codes 2 to 6 rise ×1.46 a step. Code 1 comes from the curve, 7 and 8 from frozen packs. 24 packs, each with its home time. The gaps are listed on the page.
