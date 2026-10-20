@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Ten Impossible Problems — writes docs/index.html, docs/th/index.html, llms.txt, sitemap, robots, icon."""
 import html, json, pathlib
+import ogcards
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
@@ -247,3 +248,5 @@ if __name__ == "__main__":
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         f"<url><loc>{BASE}</loc></url><url><loc>{BASE}th/</loc></url></urlset>\n", encoding="utf-8")
     print("built", DOCS)
+    ogcards.copy(ROOT, DOCS)
+    ogcards.apply_tree(DOCS, BASE)
